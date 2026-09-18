@@ -1,0 +1,39 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "debug-env",
+      "displayName": "debug-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "C:/Users/mirce/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi",
+        "SdkRootDirPath": "C:/Users/mirce/Downloads/SDK_26_06_00_FRDM-MCXN947/mcuxsdk",
+        "MCUX_VENV_PATH": "C:/Users/mirce/.mcuxpressotools/.mcux-venv-3.12/Scripts",
+        "NINJA_DIR": "C:/Users/mirce/.mcuxpressotools/ninja-1.13.2",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$env{ARMGCC_DIR}/bin${pathListSep}$env{NINJA_DIR}${pathListSep}$penv{PATH}",
+        "POSTPROCESS_UTILITY": "C:/Users/mirce/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      },
+      "cacheVariables": {}
+    },
+    {
+      "name": "release-env",
+      "displayName": "release-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "C:/Users/mirce/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi",
+        "SdkRootDirPath": "C:/Users/mirce/Downloads/SDK_26_06_00_FRDM-MCXN947/mcuxsdk",
+        "MCUX_VENV_PATH": "C:/Users/mirce/.mcuxpressotools/.mcux-venv-3.12/Scripts",
+        "NINJA_DIR": "C:/Users/mirce/.mcuxpressotools/ninja-1.13.2",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$env{ARMGCC_DIR}/bin${pathListSep}$env{NINJA_DIR}${pathListSep}$penv{PATH}",
+        "POSTPROCESS_UTILITY": "C:/Users/mirce/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      },
+      "cacheVariables": {}
+    }
+  ],
+  "buildPresets": []
+}

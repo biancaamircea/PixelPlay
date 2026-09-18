@@ -1,0 +1,207 @@
+{
+    "$schema":  "https://mcuxpresso.nxp.com/staticdata/mcux/schema/project_info/project_info_schema_3.0.json",
+    "projects":  [
+                     {
+                         "projectRootPath":  "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy",
+                         "name":  "new",
+                         "device_package":  "MCXA153VLH",
+                         "board":  "frdmmcxa153",
+                         "source_generated_cmake_file_path":  "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/cfg_tools_generated.cmake",
+                         "component_edit_prj_file_path":  "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/prj.conf",
+                         "component_id_map_path":  "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/tool_data/misc/component_id_map.yml",
+                         "outputPath":  "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153",
+                         "includes":  [
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/drivers",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/pwm",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/mcx_spc",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/uart",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/str",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/gpio",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/assert",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/debug_console_lite",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/app",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/port",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpuart",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/common",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/ctimer",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpadc",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpi2c",
+                                          "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpspi"
+                                      ],
+                         "files":  [
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board/board.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_I3C.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/pwm/fsl_pwm.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/app/hardware_init.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/debug_console_lite/fsl_debug_console.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/MCXA153.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_PORT.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpuart/fsl_lpuart.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/drivers/fsl_reset.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/debug_console_lite/fsl_debug_console.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_LPCMP.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_CDOG.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/drivers/fsl_clock.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/misc_utilities/fsl_sbrk.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_SYSCON.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_CTIMER.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_DEBUGMAILBOX.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/port/fsl_port.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_ADC.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include/core_cm33.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/system_MCXA153.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/common/fsl_common_arm.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board/board.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/drivers/fsl_clock.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/drivers/fsl_reset.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/common/fsl_common.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_WWDT.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_FREQME.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_LPI2C.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_MRCC.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_DMA.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board/clock_config.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_version.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_VBAT.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_UTICK.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/assert/fsl_assert.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_FMC.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/gpio/fsl_gpio.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_TRDC.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_GPIO.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/common/fsl_common_arm.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile/armv8m_mpu.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/uart/fsl_adapter_uart.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/drivers/fsl_inputmux_connections.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_GLIKEY.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/MCXA153_COMMON.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/gpio/fsl_gpio.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_SPC.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/led_blinky.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board/clock_config.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_FMU.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board/pin_mux.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/assert/fsl_assert.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include/tz_context.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_USB.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_compiler.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_FMUTEST.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_SCG.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/system_MCXA153.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpuart/fsl_lpuart.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_EIM.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_CRC.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board/peripherals.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_EQDC.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/str/fsl_str.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_PWM.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/pwm/fsl_pwm.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_WAKETIMER.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/app/app.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_ERM.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_LPTMR.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_INPUTMUX.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/fsl_device_registers.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_CMC.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_LPSPI.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_gcc.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_AOI.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/components/str/fsl_str.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board/pin_mux.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/mcx_spc/fsl_spc.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured_flappy/frdmmcxa153/board/peripherals.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_WUU.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/MCXA153/MCXA153_features.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/common/fsl_common.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_OSTIMER.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/devices/MCX/MCXA/periph/PERI_LPUART.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/ctimer/fsl_ctimer.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/ctimer/fsl_ctimer.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpadc/fsl_lpadc.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpadc/fsl_lpadc.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpi2c/fsl_lpi2c.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpi2c/fsl_lpi2c.c",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpspi/fsl_lpspi.h",
+                                       "C:/WORKSPACE/proiecte/ipcei-lab/src/sdks/mcuxsdk/mcuxsdk/mcuxsdk/drivers/lpspi/fsl_lpspi.c"
+                                   ],
+                         "components":  [
+                                            {
+                                                "kconfig_id":  "driver.clock"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.inputmux_connections"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.reset"
+                                            },
+                                            {
+                                                "kconfig_id":  "CMSIS_Include_core_cm"
+                                            },
+                                            {
+                                                "kconfig_id":  "device.CMSIS"
+                                            },
+                                            {
+                                                "kconfig_id":  "device.system"
+                                            },
+                                            {
+                                                "kconfig_id":  "device.startup"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.common"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.gpio"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.lpuart"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.mcx_spc"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.port"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.pwm"
+                                            },
+                                            {
+                                                "kconfig_id":  "utility.assert_lite"
+                                            },
+                                            {
+                                                "kconfig_id":  "utilities.misc_utilities"
+                                            },
+                                            {
+                                                "kconfig_id":  "utility.str"
+                                            },
+                                            {
+                                                "kconfig_id":  "utility.debug_console_lite"
+                                            },
+                                            {
+                                                "kconfig_id":  "component.lpuart_adapter"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.ctimer"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.lpadc"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.lpi2c"
+                                            },
+                                            {
+                                                "kconfig_id":  "driver.lpspi"
+                                            }
+                                        ]
+                     }
+                 ]
+}

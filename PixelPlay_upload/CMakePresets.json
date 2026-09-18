@@ -1,0 +1,73 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "debug",
+      "displayName": "debug",
+      "generator": "Ninja",
+      "binaryDir": "${fileDir}//${presetName}",
+      "toolchainFile": "$env{SdkRootDirPath}/cmake/toolchain/armgcc.cmake",
+      "inherits": "debug-env",
+      "cacheVariables": {
+        "APP_DIR": {
+          "value": "${fileDir}",
+          "type": "PATH"
+        },
+        "CMAKE_BUILD_TYPE": "debug",
+        "SdkRootDirPath": "$env{SdkRootDirPath}",
+        "CONFIG_TOOLCHAIN": "armgcc",
+        "CUSTOM_BOARD_ROOT": "${fileDir}",
+        "CMAKE_MAKE_PROGRAM": "$env{NINJA_DIR}/ninja.exe",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${fileDir}//${presetName}",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "${fileDir}//${presetName}",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "${fileDir}//${presetName}",
+        "WEST": "TRUE",
+        "board": "frdmmcxa153",
+        "PrjRootDirPath": "${fileDir}//"
+      }
+    },
+    {
+      "name": "release",
+      "displayName": "release",
+      "generator": "Ninja",
+      "binaryDir": "${fileDir}//${presetName}",
+      "toolchainFile": "$env{SdkRootDirPath}/cmake/toolchain/armgcc.cmake",
+      "inherits": "release-env",
+      "cacheVariables": {
+        "APP_DIR": {
+          "value": "${fileDir}",
+          "type": "PATH"
+        },
+        "CMAKE_BUILD_TYPE": "release",
+        "SdkRootDirPath": "$env{SdkRootDirPath}",
+        "CONFIG_TOOLCHAIN": "armgcc",
+        "CUSTOM_BOARD_ROOT": "${fileDir}",
+        "CMAKE_MAKE_PROGRAM": "$env{NINJA_DIR}/ninja.exe",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${fileDir}//${presetName}",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "${fileDir}//${presetName}",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "${fileDir}//${presetName}",
+        "WEST": "TRUE",
+        "board": "frdmmcxa153",
+        "PrjRootDirPath": "${fileDir}//"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "debug",
+      "displayName": "debug",
+      "configurePreset": "debug"
+    },
+    {
+      "name": "release",
+      "displayName": "release",
+      "configurePreset": "release"
+    }
+  ],
+  "include": [
+    "mcux_include.json"
+  ]
+}

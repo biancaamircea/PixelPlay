@@ -1,0 +1,51 @@
+{
+    "projects":  [
+                     {
+                         "core":  "cm33_core0",
+                         "addComponents":  [
+                                               {
+                                                   "kconfig_id":  "driver.ctimer",
+                                                   "manifest_id":  "platform.drivers.ctimer",
+                                                   "version":  "2.2.3"
+                                               },
+                                               {
+                                                   "kconfig_id":  "driver.lpadc",
+                                                   "manifest_id":  "platform.drivers.lpadc",
+                                                   "version":  "2.9.9"
+                                               },
+                                               {
+                                                   "kconfig_id":  "driver.lpi2c",
+                                                   "manifest_id":  "platform.drivers.lpi2c",
+                                                   "version":  "2.6.9"
+                                               },
+                                               {
+                                                   "kconfig_id":  "driver.lpspi",
+                                                   "manifest_id":  "platform.drivers.lpspi",
+                                                   "version":  "2.7.9"
+                                               },
+                                               {
+                                                   "kconfig_id":  "driver.pwm",
+                                                   "manifest_id":  "platform.drivers.pwm",
+                                                   "version":  "2.10.1"
+                                               }
+                                           ],
+                         "device_package":  "MCXA153VLH",
+                         "addIncludes":  [
+
+                                         ],
+                         "projectBoardFolder":  "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured/frdmmcxa153",
+                         "source_generated_cmake_file_path":  "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured/frdmmcxa153/cfg_tools_generated.cmake",
+                         "addFiles":  [
+
+                                      ],
+                         "name":  "new",
+                         "removeFiles":  [
+
+                                         ],
+                         "projectRootPath":  "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured",
+                         "component_edit_prj_file_path":  "C:/WORKSPACE/proiecte/ipcei-lab/src/lab_new_project_configured/configured/frdmmcxa153/prj.conf",
+                         "board":  "frdmmcxa153"
+                     }
+                 ],
+    "$schema":  "https://mcuxpresso.nxp.com/staticdata/mcux/schema/cfg_require/cfg_require_schema_1.0.json"
+}
