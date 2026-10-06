@@ -1,4 +1,4 @@
-# PixelPlay
+# PixelPlay -- Embedded Mini-Arcade
 
 *A colorful FRDM-MCXA153 mini-arcade with games, user selection, and ESP32-CAM photo/video capture.*
 
